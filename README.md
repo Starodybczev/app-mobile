@@ -1,5 +1,13 @@
 # Android Kotlin Practices 📱
 
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-Latest-3DDC84?logo=androidstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Control-F05032?logo=git&logoColor=white)
+
+---
+
 Educational repository with practical assignments for Android application development  
 using **Kotlin** and **Jetpack Compose**.
 
@@ -15,27 +23,17 @@ Frontend / Android Developer (student)
 
 ## 🛠️ Tech Stack
 
-- **Kotlin**  
-  https://kotlinlang.org/
-
-- **Jetpack Compose**  
-  https://developer.android.com/jetpack/compose
-
-- **Material 3**  
-  https://m3.material.io/
-
-- **Android Studio**  
-  https://developer.android.com/studio
-
-- **Git & GitHub**  
-  https://git-scm.com/  
-  https://github.com/
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android Studio
+- Git / GitHub
 
 ---
 
 ## 📂 Repository Structure
 
-The `main` branch contains only documentation.  
+The `main` branch contains documentation only.  
 Each practical task is implemented in a **separate branch**.
 
 ### 📌 Practical Works
@@ -48,14 +46,7 @@ Each practical task is implemented in a **separate branch**.
 
 ## 🚀 How to Run the Project
 
-### Using terminal (bash)
-
 ```bash
-# clone repository
 git clone https://github.com/USERNAME/REPO_NAME.git
-
-# move into project directory
 cd REPO_NAME
-
-# switch to required practice branch
 git checkout practic_one_calculator
