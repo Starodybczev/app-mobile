@@ -1,5 +1,12 @@
 # Kotlin Practice — Calculator App
 
+# tech stack
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-Latest-3DDC84?logo=androidstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Control-F05032?logo=git&logoColor=white)
+
 Simple calculator app built with **Kotlin + Jetpack Compose**.
 
 ## Screenshots
@@ -10,11 +17,6 @@ Simple calculator app built with **Kotlin + Jetpack Compose**.
   <img src="screanshot/Screenshot_type_text.jpg" width="250" />
 </p>
 
-## Tech Stack
-
-- Kotlin
-- Jetpack Compose
-- Android Studio
 
 ## Branches
 
