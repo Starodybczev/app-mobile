@@ -1,6 +1,4 @@
 # Kotlin Practice — Calculator App
-
-# tech stack
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
