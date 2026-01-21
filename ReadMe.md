@@ -5,9 +5,9 @@ Simple calculator app built with **Kotlin + Jetpack Compose**.
 ## Screenshots
 
 <p align="center">
-  <img src="screenshot/screanshot_main.jpg" width="250" />
-  <img src="screenshot/Screenshot_window_app.jpg" width="250" />
-  <img src="screenshot/Screenshot_type_text.jpg" width="250" />
+  <img src="screanshot/screanshot_main.jpg" width="250" />
+  <img src="screanshot/Screenshot_window_app.jpg" width="250" />
+  <img src="screanshot/Screenshot_type_text.jpg" width="250" />
 </p>
 
 ## Tech Stack
