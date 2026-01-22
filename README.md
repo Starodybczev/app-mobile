@@ -1,7 +1,7 @@
 # Kotlin Practice One — Input Calculator (Adaptive UI)
 
 <p align="center">
-  <img url="screanshot/icon_sum" width="120"/>
+  <img url="screanshot/icon_sum.svg" width="120"/>
 </p>
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
@@ -54,7 +54,7 @@ Where:
 ## 🖼 Screenshots
 
 <p align="center">
-<img src="screanshot/Screenshot_horizontal" width="250" />
+<img src="screanshot/Screenshot_horizontal.jpg" width="250" />
 </p>
 
 ---
