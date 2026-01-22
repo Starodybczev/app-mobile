@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.example.myapplication.styles.Gap16
 
 @Composable
-fun Footer(){
+fun Footer() {
     val context = LocalContext.current
     val appName = context.applicationInfo
         .loadLabel(context.packageManager)
@@ -25,16 +25,17 @@ fun Footer(){
 
     Column(
         modifier = Modifier
+            .fillMaxWidth()
             .background(Color(0xFF121212))
-            .padding(20.dp)
-            .fillMaxWidth(),
-        verticalArrangement = Arrangement.spacedBy(
-            space = Gap16,
-            alignment = Alignment.CenterVertically
-        ),
+            .padding(0.dp, 20.dp),
+        verticalArrangement = Arrangement.spacedBy(Gap16),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text("Design by Wiktor Dev", color = Color.White)
-        Text(text = appName , style = MaterialTheme.typography.titleLarge, color = Color.White)
+        Text(
+            text = appName,
+            style = MaterialTheme.typography.titleLarge,
+            color = Color.White
+        )
     }
 }
