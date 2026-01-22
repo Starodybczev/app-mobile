@@ -11,7 +11,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -24,9 +24,9 @@ import com.example.myapplication.ux.Screen
 fun InputSum(
     modifier: Modifier = Modifier
 ) {
-    var num_one by remember { mutableStateOf("") }
-    var num_two by remember { mutableStateOf("") }
-    var result by remember { mutableStateOf<Double?>(null) }
+    var num_one by rememberSaveable  { mutableStateOf("") }
+    var num_two by rememberSaveable  { mutableStateOf("") }
+    var result by rememberSaveable  { mutableStateOf<Double?>(null) }
 
     fun sum() {
         val x = num_one.toDoubleOrNull() ?: return
