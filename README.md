@@ -41,6 +41,7 @@ Each practical task is implemented in a **separate branch**.
 | Practice | Description | Branch |
 |--------|------------|--------|
 | Practice 1 | Calculator (inputs, state, UI, basic UX) | `practic_one_calculator` |
+| Practic 2  | Calculator(Horizontal ux update)         | `practic_two`            |
 
 ---
 
@@ -50,3 +51,4 @@ Each practical task is implemented in a **separate branch**.
 git clone https://github.com/USERNAME/REPO_NAME.git
 cd REPO_NAME
 git checkout practic_one_calculator
+
