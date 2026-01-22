@@ -4,13 +4,13 @@
   <img src="screanshot/icon_sum.svg" width="120"/>
 </p>
 
-
-  ![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
-  ![Android](https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white)
-  ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
-  ![Android Studio](https://img.shields.io/badge/Android%20Studio-Latest-3DDC84?logo=androidstudio&logoColor=white)
-  ![Git](https://img.shields.io/badge/Git-Control-F05032?logo=git&logoColor=white)
-
+<p>
+  <img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4"/>
+  <img src="https://img.shields.io/badge/Android%20Studio-Latest-3DDC84?logo=androidstudio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-Control-F05032?logo=git&logoColor=white"/>
+</p>
 
 A simple **calculator application with user input**, built using **Kotlin and Jetpack Compose** as part of the first practical task.  
 This version includes **basic adaptive layout support for portrait and landscape orientations**.
