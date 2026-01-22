@@ -54,7 +54,7 @@ Where:
 ## 🖼 Screenshots
 
 <p align="center">
-<img src="screanshot/screanshot_horizontal.jpg" width="250" />
+<img src="screanshot/Screenshot_horizontal" width="250" />
 </p>
 
 ---
