@@ -51,4 +51,5 @@ Each practical task is implemented in a **separate branch**.
 git clone https://github.com/USERNAME/REPO_NAME.git
 cd REPO_NAME
 git checkout practic_one_calculator
+```
 
