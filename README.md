@@ -77,21 +77,21 @@ Navigation is handled manually without heavy external frameworks.
 
 ### Main Screen
 <p align="center">
-  <img src="screanshots/image_main_hello.jpg" width="250"/>
-  <img src="screanshots/main_window.jpg" width="250"/>
+  <img src="screanshot/image_main_hello.jpg" width="250"/>
+  <img src="screanshot/main_window.jpg" width="250"/>
 </p>
 
 ### Task List + Filtering
 <p align="center">
-  <img src="screanshots/list_tasks.jpg" width="250"/>
-  <img src="screanshots/select__option_from__list_tasks.jpg" width="250"/>
+  <img src="screanshot/list_tasks.jpg" width="250"/>
+  <img src="screanshot/select__option_from__list_tasks.jpg" width="250"/>
 </p>
 
 ### Create Task (Empty / Filled)
 <p align="center">
-  <img src="screanshots/window__added_task_empty.jpg" width="250"/>
-  <img src="screanshots/window__added_task_fill_field_input.jpg" width="250"/>
-  <img src="screanshots/window_added_tasks_select_option.jpg" width="250"/>
+  <img src="screanshot/window__added_task_empty.jpg" width="250"/>
+  <img src="screanshot/window__added_task_fill_field_input.jpg" width="250"/>
+  <img src="screanshot/window_added_tasks_select_option.jpg" width="250"/>
 </p>
 
 ---
@@ -117,5 +117,6 @@ Navigation is handled manually without heavy external frameworks.
 ## 📄 License
 
 Educational project created for learning and practice purposes.
+
 
 
