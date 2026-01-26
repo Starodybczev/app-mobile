@@ -1,55 +1,119 @@
-# Android Kotlin Practices 📱
+# Kotlin Practice Three — Task Manager (Multi-Screen App)
 
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-Latest-3DDC84?logo=androidstudio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Control-F05032?logo=git&logoColor=white)
+<p align="center">
+  <img src="screenshots/icon.png" width="120"/>
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-14-3DDC84?logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4"/>
+  <img src="https://img.shields.io/badge/Architecture-Clean%20UI-green"/>
+</p>
 
-Educational repository with practical assignments for Android application development  
-using **Kotlin** and **Jetpack Compose**.
-
-This project is created as part of a university practice course.
-
----
-
-## 👤 Author
-**Wiktor Dev**  
-Frontend / Android Developer (student)
+A **multi-screen Android application** built with **Kotlin and Jetpack Compose** as a practical task.  
+The project demonstrates **navigation between multiple windows**, **data transfer between screens**, **task creation**, **filtering**, and **custom UI design created manually**.
 
 ---
 
-## 🛠️ Tech Stack
+## 📱 Project Description
 
-- Kotlin
-- Jetpack Compose
-- Material 3
-- Android Studio
-- Git / GitHub
+This application is a **task manager** consisting of **three main screens**:
 
----
+1. **Main screen** — action selection  
+2. **Create task screen** — input and selection  
+3. **Task list screen** — displaying and filtering created tasks  
 
-## 📂 Repository Structure
-
-The `main` branch contains documentation only.  
-Each practical task is implemented in a **separate branch**.
-
-### 📌 Practical Works
-
-| Practice | Description | Branch |
-|--------|------------|--------|
-| Practice 1 | Calculator (inputs, state, UI, basic UX) | `practic_one_calculator` |
-| Practice 2 | Calculator(Horizontal ux update)         | `practic_two`            |
+All user-entered data is passed between screens and rendered dynamically on the final screen.
 
 ---
 
-## 🚀 How to Run the Project
+## ✅ Assignment Requirements Coverage
 
-```bash
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
-git checkout practic_one_calculator
-```
+The project fully satisfies the task requirements:
 
+- ✔ **Three separate windows (screens)**
+- ✔ **Input fields** (task name, description)
+- ✔ **Selection elements** (task type via dropdown / options)
+- ✔ **Images and icons**
+- ✔ **Different background styles per screen**
+- ✔ **Navigation buttons**:
+  - Forward
+  - Back
+  - Exit
+- ✔ **Final screen displays data from previous screens**
+
+---
+
+## ✨ Additional Features (Extended)
+
+Beyond the base requirements, the project includes:
+
+- ➕ **Task creation system**
+- 🔍 **Filtering tasks by type**
+  - via dropdown option selector
+  - via text search input
+- 🧭 **Manual navigation logic**
+- 🧱 **Clean and readable project architecture**
+- 🎨 **Custom UI design (no templates, no generators)**
+
+---
+
+## 🧱 Architecture
+
+The project is structured with a **clean UI-focused architecture**:
+
+- `ui` — screens and layouts
+- `components` — reusable UI components
+- `types` — task types and enums
+- `navigation` — screen routing logic
+- `state` — UI state handling
+
+State is managed using **Compose state (`remember`, `mutableStateOf`)**  
+Navigation is handled manually without heavy external frameworks.
+
+---
+
+## 🖼 Screenshots
+
+### Main Screen
+<p align="center">
+  <img src="screenshots/main_window.jpg" width="250"/>
+</p>
+
+### Task List + Filtering
+<p align="center">
+  <img src="screenshots/list_tasks.jpg" width="250"/>
+  <img src="screenshots/select__option_from__list_tasks.jpg" width="250"/>
+</p>
+
+### Create Task (Empty / Filled)
+<p align="center">
+  <img src="screenshots/window__added_task_empty.jpg" width="250"/>
+  <img src="screenshots/window__added_task_fill_field_input.jpg" width="250"/>
+  <img src="screenshots/window_added_tasks_select_option.jpg" width="250"/>
+</p>
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+2. Open the project in **Android Studio**
+3. Wait for Gradle sync to complete
+4. Run on an emulator or physical Android device
+
+---
+
+## 🧠 Notes
+
+- All UI and logic were implemented **manually**
+- No UI builders or templates were used
+- This project was **more complex than typical web applications**
+- Focus was placed on understanding **state, navigation, and Compose layout behavior**
+
+---
+
+## 📄 License
+
+Educational project created for learning and practice purposes.
