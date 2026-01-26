@@ -1,7 +1,16 @@
 # Kotlin Practice Three — Task Manager (Multi-Screen App)
 
 <p align="center">
-  <img src="screenshots/icon.png" width="120"/>
+  <img src="screenshots/image_main_hello.jpg" width="120"/>
+  <img src="screenshots/main_window.jpg" width="120"/>
+  ---
+  <img src="screenshots/window__added_task_empty.jpg" width="120"/>
+  <img src="screenshots/window__added_task_fill_field_input.jpg" width="120"/>
+  <img src="screenshots/window_added_tasks_select_option.jpg" width="120"/>
+  ---
+  <img src="screenshots/list_tasks.jpg" width="120"/>
+  <img src="screenshots/select__option_from__list_tasks.jpg" width="120"/>
+  
 </p>
 
 <p align="center">
@@ -117,3 +126,4 @@ Navigation is handled manually without heavy external frameworks.
 ## 📄 License
 
 Educational project created for learning and practice purposes.
+
