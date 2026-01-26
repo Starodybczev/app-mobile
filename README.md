@@ -42,6 +42,7 @@ Each practical task is implemented in a **separate branch**.
 |--------|------------|--------|
 | Practice 1 | Calculator (inputs, state, UI, basic UX) | `practic_one_calculator` |
 | Practice 2 | Calculator(Horizontal ux update)         | `practic_two`            |
+| Practice 3 | create toDo app                          | `practic_three`          |
 
 ---
 
@@ -52,4 +53,5 @@ git clone https://github.com/USERNAME/REPO_NAME.git
 cd REPO_NAME
 git checkout practic_one_calculator
 ```
+
 
